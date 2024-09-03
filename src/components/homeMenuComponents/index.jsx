@@ -3,7 +3,7 @@ import TweetList from "./TweetLists/TweetLists";
 
 export default function HomeMenu(){
     return(
-        <div className="w-50">
+        <div style={{width: '48%'}}>
             {/* <h5>Home</h5> */}
             {/* <NewTweet/> */}
             <TweetList/>

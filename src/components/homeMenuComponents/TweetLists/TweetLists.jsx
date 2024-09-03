@@ -20,7 +20,7 @@ const TweetList = () => {
     const shuffledTweets = shuffleArray(tweets); // Shuffle the tweets first
     return shuffledTweets.filter(tweet => 
       (tweet.pictures && tweet.pictures.length > 0)
-    ).slice(0, 1); // Limit to 10 tweets with media
+    ).slice(0, 10); // Limit to 10 tweets with media
   };
 
   useEffect(() => {
