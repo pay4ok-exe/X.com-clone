@@ -1,5 +1,5 @@
 export default function HomeMenu(){
     return(
-        <p>Home</p>
+        <div><p>Home</p></div>
     )
 }

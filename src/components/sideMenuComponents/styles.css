@@ -1,0 +1,18 @@
+.logo-icon{
+    width: 25px;
+    height: 25px;
+}
+
+
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo:hover{
+    background-color: #e7e7e8;
+}
