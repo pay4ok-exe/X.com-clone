@@ -16,3 +16,73 @@
 .logo:hover{
     background-color: #e7e7e8;
 }
+
+.menu-item{
+    align-items: flex-start;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    /* padding-left: 10px; */
+}
+
+.menu-item:hover{
+    background-color: #e7e7e8;
+
+}
+
+.btn{
+    background-color: rgb(29, 155, 240);
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+/* The profile div */
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* justify-con: flex-end; */
+    margin-top: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 40px;
+
+}
+
+.profile:hover{
+    background-color: #e7e7e8;
+}
+
+
+#pt1{
+    font-size: small;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+#pt2{
+    font-size: small;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.profile img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: -10px;
+}
+
+/* The more options icon */
+.more_options img {
+    height: 20px;
+    width: auto;
+    margin-right: 10px
+}
