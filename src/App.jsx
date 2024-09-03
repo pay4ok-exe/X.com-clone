@@ -9,6 +9,8 @@ function App() {
       <SideMenu/>
       <div className="vertical-divider"></div>
       <HomeMenu/>
+      <div className="vertical-divider"></div>
+
     </div>
   )
 }
