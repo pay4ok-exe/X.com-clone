@@ -6,6 +6,7 @@ body{
 .vertical-divider{
   width: 2px;
   height: 100vh;
+  /* max-height: 100%; */
   background-color: whitesmoke;
 }
 .App{
