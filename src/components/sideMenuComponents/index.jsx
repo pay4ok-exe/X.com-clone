@@ -49,7 +49,7 @@ export default function SideMenu(){
                 <MenuItem key={index} item={item} style={{gap: '20px'}}/>
             ))}
 
-            <button type="button" class="btn">Post</button>
+            <button type="button" className="btn">Post</button>
 
             <div className='profile'>
                 <img src={require('./images/profile.png')}/>
