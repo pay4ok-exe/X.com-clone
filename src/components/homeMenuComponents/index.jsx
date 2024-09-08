@@ -14,6 +14,7 @@ export default function HomeMenu(){
                     <p style={{fontWeight: 'bold', textDecoration: 'none', color: 'grey'}}>Following</p>
                 </div>
             </div>
+            <NewTweet/>
             <TweetList/>
         </div>
     )
