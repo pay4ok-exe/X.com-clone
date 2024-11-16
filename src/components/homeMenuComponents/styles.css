@@ -1,142 +1,170 @@
-.hover{
-  background-color: white
+.hover {
+  background-color: white;
 }
 
-.hover:hover{
+.hover:hover {
   background-color: #e7e7e8;
 }
 
-.tweet{
-    display: flex;
-    border-bottom: 1px solid #e1e8ed;
-    padding: 0 10px;
-    /* width: 50%; */
+.tweet {
+  display: flex;
+  border-bottom: 1px solid #e1e8ed;
+  padding: 0 10px;
+  /* width: 50%; */
 }
 
 .tweet-avatar {
-    margin-right: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
 }
 
 #avatar {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-  }
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
 
-  .tweet-main {
-    flex: 1;
-  }
+.tweet-main {
+  flex: 1;
+}
 
-  .tweet-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* margin-bottom: 5px; */
-    padding: 10px;
-    padding-bottom: 5px;
-    padding-left: 0;
-  }
+.tweet-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 5px; */
+  padding: 10px;
+  padding-bottom: 5px;
+  padding-left: 0;
+}
 
-  .title{
-    display: flex;
-    flex-direction: row;
-    /* justify-content: flex-end; */
-    align-items:center;
-    gap: 10px;
-  }
+.title {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-end; */
+  align-items: center;
+  gap: 10px;
+}
 
-  #name {
-    font-weight: bold;
-  }
-  
-  #username {
-    color: #657786;
-  }
-  
-  #date {
-    color: #657786;
-    font-size: small;
-  }
-  
-  /* Content section for the tweet's text */
-  .tweet-content {
-    margin-bottom: 10px;
-    padding: 0;
-  }
-  
-  /* Image section */
-  .tweet-image {
-    margin-bottom: 10px;
-  }
-  
-  #tweet-image {
-    max-width: 100%;
-    /* height: 250px; */
-    border-radius: 20px;
-  }
-  
-  /* Link styling */
-  #link {
-    color: #657786;
-    font-size: small;
-    text-decoration: none;
-  }
-  
-  #link:hover {
-    text-decoration: underline;
-  }
-  
-  /* Actions section with comments, retweets, quotes, and likes */
-  .tweet-actions {
-    display: flex;
-    padding: 10px;
-    justify-content: space-between;
-    font-size: 0.875em;
-    color: #657786;
-  }
-  
-  .tweet-actions div {
-    display: flex;
-    align-items: center;
-  }
-  
-  .tweet-actions svg {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-  }
-  
-  /* More options button */
-  .more_options img {
-    width: 16px;
-    height: 16px;
-    cursor: pointer;
-  }
-  
-  .more_options img:hover {
-    opacity: 0.7;
-  }
+#name {
+  font-weight: bold;
+}
 
-  .new-tweet{
-    display: flex;
+#username {
+  color: #657786;
+}
 
-  }
+#date {
+  color: #657786;
+  font-size: small;
+}
 
+/* Content section for the tweet's text */
+.tweet-content {
+  margin-bottom: 10px;
+  padding: 0;
+}
 
-  .symbols{
-    display: flex;
+/* Image section */
+.tweet-image {
+  margin-bottom: 10px;
+}
 
-  }
+#tweet-image {
+  max-width: 100%;
+  /* height: 250px; */
+  border-radius: 20px;
+}
 
-  .symbols svg{
-    height: 20px;
-    width: 20px;
-    color: rgb(29, 155, 240);
-  }
+/* Link styling */
+#link {
+  color: #657786;
+  font-size: small;
+  text-decoration: none;
+}
 
-  .new-tweet-container{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
+#link:hover {
+  text-decoration: underline;
+}
+
+/* Actions section with comments, retweets, quotes, and likes */
+.tweet-actions {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  font-size: 0.875em;
+  color: #657786;
+}
+
+.tweet-actions div {
+  display: flex;
+  align-items: center;
+}
+
+.tweet-actions svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+/* More options button */
+.more_options img {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.more_options img:hover {
+  opacity: 0.7;
+}
+
+.new-tweet {
+  display: flex;
+}
+
+.symbols {
+  display: flex;
+}
+
+.symbol svg {
+  height: 16px;
+  width: 16px;
+  fill: rgb(29, 155, 240);
+}
+
+.new-tweet-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.reply-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.reply-container p {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: medium;
+  color: rgb(29, 155, 240);
+}
+
+#new-tweet-input {
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(15, 20, 25);
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 8px;
+  outline: none;
+}
+
+#new-tweet-input::placeholder {
+  color: rgba(101, 119, 134, 0.75);
+}

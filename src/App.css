@@ -1,15 +1,16 @@
-body{
+body,
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.vertical-divider{
+.vertical-divider {
   width: 2px;
   height: 100vh;
   /* max-height: 100%; */
   background-color: whitesmoke;
 }
-.App{
+.App {
   font-family: "Montserrat", sans-serif;
   /* justify-content: center; */
 }

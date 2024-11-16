@@ -8,12 +8,12 @@ export default function NewTweet() {
       <div className="new-tweet-container">
         <input id="new-tweet-input" placeholder="What is happening?!" />
         <div className="reply-container">
-          {/* {EARTH} */}
+          <div className="symbol">{EARTH}</div>
           <p>Everyone can reply</p>
         </div>
         <hr />
         <div className="actions-container">
-          <div className="symbols">
+          <div className="symbol">
             {MEDIA}
             {GIF}
             {POLL}
