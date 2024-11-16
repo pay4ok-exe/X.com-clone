@@ -109,6 +109,14 @@
 }
 
 /* More options button */
+.more_options {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+
 .more_options img {
   width: 16px;
   height: 16px;
