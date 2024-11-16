@@ -13,7 +13,7 @@ export default function NewTweet() {
         </div>
         <hr />
         <div className="actions-container">
-          <div className="symbol">
+          <div className="symbol symbols-container">
             {MEDIA}
             {GIF}
             {POLL}
@@ -21,7 +21,9 @@ export default function NewTweet() {
             {SCHEDULE}
             {LOCATION}
           </div>
-          <button>Post</button>
+          <button type="button" className="new-tweet-btn">
+            Post
+          </button>
         </div>
       </div>
     </div>

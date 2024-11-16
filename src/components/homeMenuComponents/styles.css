@@ -123,13 +123,9 @@
   display: flex;
 }
 
-.symbols {
-  display: flex;
-}
-
 .symbol svg {
-  height: 16px;
-  width: 16px;
+  height: 20px;
+  width: 20px;
   fill: rgb(29, 155, 240);
 }
 
@@ -167,4 +163,31 @@
 
 #new-tweet-input::placeholder {
   color: rgba(101, 119, 134, 0.75);
+}
+
+.actions-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.symbols-container {
+  display: flex;
+  gap: 10px;
+}
+
+.new-tweet-btn {
+  background-color: rgb(29, 155, 240);
+  padding: 10px 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border: 0;
+
+  border-radius: 40px;
+}
+
+hr {
+  color: #adb5bd;
 }
